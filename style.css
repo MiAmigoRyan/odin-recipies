@@ -1,0 +1,25 @@
+
+            body {
+                margin: 0;
+                padding: 0;
+                color:cadetblue
+            }
+ 
+            ul {
+                padding: 50px;
+                margin: 0;
+                position: absolute;
+                top: 20%;
+                left: 25%;
+            }
+            ul li {
+                list-style: none;
+                color: yellow;
+                float: left;
+                font-size: 40px;
+                transition: 0.8s;
+            }
+ 
+            ul:hover li {
+                transform: rotateY(360deg);
+            }
