@@ -1,10 +1,24 @@
-
+div .waterbackground {
+        background-image: url(water-background.jpeg);
+        background-size: 150;
+        border-width: 3;
+        border-color: goldenrod;
+}
+            
             body {
                 margin: 0;
                 padding: 0;
-                color:cadetblue
+                position: absolute;
+                top: 20%;
+                left: 25%
             }
- 
+            ol {
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 20%;
+                left: 25%
+            }
             ul {
                 padding: 50px;
                 margin: 0;
@@ -23,3 +37,5 @@
             ul:hover li {
                 transform: rotateY(360deg);
             }
+
+
